@@ -1,0 +1,30 @@
+{
+    "TEJASW": {
+        "name": "tejas",
+        "email": "t@gmail.com",
+        "password": "12345678",
+        "plants": [
+            "Rice",
+            "Wheat"
+        ]
+    },
+    "SAHIL": {
+        "name": "sahil",
+        "email": "s@gmail.com",
+        "password": "0987",
+        "plants": "Potato"
+    },
+    "SAMMED": {
+        "name": "sammed",
+        "email": "ss@gmail.com",
+        "password": "2468",
+        "plants": "Chana, Dal"
+    },
+    "PARI": {
+        "name": "pari",
+        "email": "P@gmail.com",
+        "password": "1234",
+        "plants": "Rice",
+        "last_login": "2025-05-21 15:07:58"
+    }
+}

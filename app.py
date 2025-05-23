@@ -181,8 +181,11 @@ class PlantApp:
         prediction = model.predict(feature)
         predicted_index = str(np.argmax(prediction))
         label = plant_disease[predicted_index]
-        #label = plant_disease[prediction.argmax()]
-        self.result_label.config(text=f"🦠 Prediction: {label}")
+        #self.result_label.config(text=f"🦠 Prediction: {label}") # this line prints result in json format
+        info = plant_disease[predicted_index]
+        result_text = f"Prediction\n\nName: {info['name']}\nCause: {info['cause']}\nCure: {info['cure']}"
+        self.result_label.config(text=result_text)
+
 
 # --- Launch ---
 root = tk.Tk()
